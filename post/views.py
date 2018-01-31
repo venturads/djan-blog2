@@ -8,4 +8,5 @@ def home(request):
   return render(request, 'post/home.html',{
       'template_name': 'post/nav.html', 
       'template_footer': 'post/footer.html',
+      'template_header': 'post/header.html',
   })
